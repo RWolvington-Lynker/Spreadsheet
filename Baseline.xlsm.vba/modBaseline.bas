@@ -18,6 +18,7 @@ Option Explicit
 ' Version             Date            Author              Reason
 '----------------------------------------------------------------------
 ' V1.00           05/08/2018      rwolvington    Original
+' V1.01           05/15/2018      rwolvington    Changed comments, added something.
 '
 '************************************************************************
 
@@ -42,3 +43,22 @@ Sub ConvertToValues()
     
 
 End Sub 'ConvertToValues()
+
+
+
+'***************************************************************
+'  Sub SelectUsedRange() - Select the used range on the current worksheet.
+'
+'       Called by:
+'       Calls:
+'       Parameters:
+'
+'  Created by: rwolvington   05/15/2018
+'
+'  See also
+'***************************************************************
+Sub SelectUsedRange()
+
+    ActiveSheet.UsedRange.Select
+
+End Sub 'SelectUsedRange()
