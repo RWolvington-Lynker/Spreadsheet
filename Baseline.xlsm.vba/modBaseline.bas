@@ -19,6 +19,7 @@ Option Explicit
 '----------------------------------------------------------------------
 ' V1.00           05/08/2018      rwolvington    Original
 ' V1.01           05/15/2018      rwolvington    Changed comments, added something.
+' V1.02           05/15/2018      rwolvington    Comment.
 '
 '************************************************************************
 
